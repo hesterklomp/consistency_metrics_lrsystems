@@ -53,3 +53,18 @@ Then, they are applied to seven datasets based on real-life LR-data, to evaluate
      ```bash
      python "fid test.py"
      ```
+3. To test optimized metrics on different datasets, execute:
+   - **Data 1 through Data 7**:
+     ```bash
+     python data1.py
+     python data2.py
+     python data3.py
+     python data4.py
+     python data5.py
+     python data6.py
+     python data7.py
+     ```
+4. To test the reliability of the metrics across dataset type and size, execute:
+   ```bash
+   python all_data_metric_comparison.py
+   ```
